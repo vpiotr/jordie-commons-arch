@@ -3,25 +3,25 @@ Software archive for scientific computing libraries.
 
 # DISCLAIMER 
 This is just a code dump, this software is not supposed to be in a working state and is provided as-is.
-Some parts of the original software have been ommited - if you want to use it, you need to remove references to missing parts or use your own implementation instead.
+Some parts of the original software have been omitted - if you want to use it, you need to remove references to missing parts or use your own implementation instead.
 See LICENSE.txt for further details.
 
 # Library index
 
 ## Commons - utility libraries
-algorithm    - abstract algorithms
-bion         - binary structured file support 
-bit          - bit manipulation library
-csv          - CSV file input/output
-date         - date & time calculation & formatting
-dnode        - variant type similar to std::any
-log          - logging functions
-partial_file - transactional file support library
-sqlite       - OOP API for SQLite based on scDataNode values and CppSQLite API wrapper
-string       - string conversion and modification functions
-varint       - variable-length integer data type functions
-tmp          - template metaprogramming library (obsolete)
-wildcard     - matcher for wildcard searching like "*.txt" (not file-related)
+* algorithm    - abstract algorithms
+* bion         - binary structured file support 
+* bit          - bit manipulation library
+* csv          - CSV file input/output
+* date         - date & time calculation & formatting
+* dnode        - variant type similar to std::any
+* log          - logging functions
+* partial_file - transactional file support library
+* sqlite       - OOP API for SQLite based on scDataNode values and CppSQLite API wrapper
+* string       - string conversion and modification functions
+* varint       - variable-length integer data type functions
+* tmp          - template metaprogramming library (obsolete)
+* wildcard     - matcher for wildcard searching like "*.txt" (not file-related)
 
 # Current software state
 Source codes are compatible with C++98 and designed to work with Win32 platform (VS).
